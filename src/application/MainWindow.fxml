@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="515.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Button fx:id="path" mnemonicParsing="false" prefWidth="100.0" text="Path" onAction="#handlePath"/>
+                        <Button fx:id="generate" mnemonicParsing="false" prefWidth="100.0" text="Generate" onAction="#handleGenerate"/>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <ImageView fx:id="inputImage" fitHeight="363.0" fitWidth="413.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="400.0" prefWidth="244.0">
+               <children>
+                  <Button fx:id="save" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Save" onAction="#handleSave"/>
+                  <Label text="Name" />
+                  <TextField fx:id="name" />
+                  <Label text="Street" />
+                  <TextField fx:id="street" />
+                  <Label text="City" />
+                  <TextField fx:id="city" />
+                  <Label text="Phone numbers" />
+                  <TextField fx:id="phone" />
+                  <Label text="Emails" />
+                  <TextField fx:id="emails" />
+                  <Label text="Websites" />
+                  <TextField fx:id="websites" />
+                  <Label text="Additional info" />
+                  <TextArea fx:id="additional" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

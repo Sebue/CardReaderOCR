@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/35/trunk/tessdata
+END
+pol.unicharset
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/22/trunk/tessdata/pol.unicharset
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/35/trunk/tessdata/NOTICE
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/35/trunk/tessdata/LICENSE
+END
+pol.user-words
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/tessdata/pol.user-words
+END
+pol.word-dawg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/tessdata/pol.word-dawg
+END
+pol.DangAmbigs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/13/trunk/tessdata/pol.DangAmbigs
+END
+pol.freq-dawg
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3/trunk/tessdata/pol.freq-dawg
+END
+ATTRIBUTIONS
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/35/trunk/tessdata/ATTRIBUTIONS
+END
+pol.normproto
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/29/trunk/tessdata/pol.normproto
+END
+pol.inttemp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/29/trunk/tessdata/pol.inttemp
+END
+pol.pffmtable
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/29/trunk/tessdata/pol.pffmtable
+END
